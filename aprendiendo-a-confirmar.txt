@@ -1,0 +1,226 @@
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT>mkdir test2
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT>cd test2
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git init
+Initialized empty Git repository in C:/Users/revix/Desktop/FULL STACK PYTHON/GIT/test2/.git/
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git add .
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   styles.css
+
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git commit -m "se han creado dos archivos, index.html y styles.css"
+[master (root-commit) 0536ed6] se han creado dos archivos, index.html y styles.css
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git log
+commit 0536ed64f5b81b4a92ea5dc7ab946699a1387bf8 (HEAD -> master)
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:18:02 2021 -0400
+
+    se han creado dos archivos, index.html y styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git commit -m "se agrega html al index"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git log
+commit 0536ed64f5b81b4a92ea5dc7ab946699a1387bf8 (HEAD -> master)
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:18:02 2021 -0400
+
+    se han creado dos archivos, index.html y styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git add index.html
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git commit -m "Se ha incorporado contenido html a index"
+[master f6dc0d9] Se ha incorporado contenido html a index
+ 1 file changed, 12 insertions(+)
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git log
+commit f6dc0d94f3745c3894f3730e27f1a3c442563651 (HEAD -> master)
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:20:43 2021 -0400
+
+    Se ha incorporado contenido html a index
+
+commit 0536ed64f5b81b4a92ea5dc7ab946699a1387bf8
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:18:02 2021 -0400
+
+    se han creado dos archivos, index.html y styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git add styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>got commit -m "Se ha actualizado el css"
+"got" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git commit -m " Se ha actualizado el css"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git log
+commit f6dc0d94f3745c3894f3730e27f1a3c442563651 (HEAD -> master)
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:20:43 2021 -0400
+
+    Se ha incorporado contenido html a index
+
+commit 0536ed64f5b81b4a92ea5dc7ab946699a1387bf8
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:18:02 2021 -0400
+
+    se han creado dos archivos, index.html y styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git add styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git commit -m "Se ha actualizado el css"
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>add styles.css
+"add" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git add styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   styles.css
+
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git commit -m "se ha actualizado el archivo css"
+[master 11cf076] se ha actualizado el archivo css
+ 1 file changed, 5 insertions(+)
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git log
+commit 11cf076c7c264bf8341cd4c9d38d67e73cfd3ef6 (HEAD -> master)
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:24:56 2021 -0400
+
+    se ha actualizado el archivo css
+
+commit f6dc0d94f3745c3894f3730e27f1a3c442563651
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:20:43 2021 -0400
+
+    Se ha incorporado contenido html a index
+
+commit 0536ed64f5b81b4a92ea5dc7ab946699a1387bf8
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:18:02 2021 -0400
+
+    se han creado dos archivos, index.html y styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git rever -n 11cf076
+git: 'rever' is not a git command. See 'git --help'.
+
+The most similar command is
+        revert
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git revert -n 11cf076
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+You are currently reverting commit 11cf076.
+  (all conflicts fixed: run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   styles.css
+
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>add styles.css
+"add" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git add styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git status
+On branch master
+You are currently reverting commit 11cf076.
+  (all conflicts fixed: run "git revert --continue")
+  (use "git revert --skip" to skip this patch)
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   styles.css
+
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git commit -m "se ha revertido un commit, y se vuelve a hacer este"
+[master 02edfa6] se ha revertido un commit, y se vuelve a hacer este
+ 1 file changed, 5 deletions(-)
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>git log
+commit 02edfa6094d88502142ba7b1d85f3016f7c4855d (HEAD -> master)
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:32:14 2021 -0400
+
+    se ha revertido un commit, y se vuelve a hacer este
+
+commit 11cf076c7c264bf8341cd4c9d38d67e73cfd3ef6
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:24:56 2021 -0400
+
+    se ha actualizado el archivo css
+
+commit f6dc0d94f3745c3894f3730e27f1a3c442563651
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:20:43 2021 -0400
+
+    Se ha incorporado contenido html a index
+
+commit 0536ed64f5b81b4a92ea5dc7ab946699a1387bf8
+Author: alexurtubia <alex.urtubia.contreras@gmail.com>
+Date:   Thu May 27 21:18:02 2021 -0400
+
+    se han creado dos archivos, index.html y styles.css
+
+C:\Users\revix\Desktop\FULL STACK PYTHON\GIT\test2>
